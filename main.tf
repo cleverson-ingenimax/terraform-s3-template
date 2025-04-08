@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     region  = "us-west-2"
-    bucket  = "terraform-s3-state-preview-bucket"
+    bucket  = "starops-terraform-s3-state-bucket"
     key     = "aws-s3/terraform.tfstate"
     encrypt = true
   }
